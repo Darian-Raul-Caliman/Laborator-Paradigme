@@ -15,6 +15,7 @@ public class Main {
         Path path = Paths.get(fileName);
         List<String> text = citireFisier(path);
         modificari(text);
+        modificari2(text);
 
 
 
@@ -26,23 +27,32 @@ public class Main {
             String liniaCurenta = ListaNoua.get(i);
             ListaNoua.set(i, liniaCurenta + "\n");
         }
-        System.out.println("Textul rezultat:");
+        System.out.println("----------------------Textul rezultat: \n");
         for (String linie : ListaNoua) {
             System.out.print(linie);
         }
     }
 
+    public static void modificari2(List<String> ListaNoua) {
+        for (int i = 0; i < ListaNoua.size(); i++) {
+            String liniaCurenta = ListaNoua.get(i);
+            String liniaModificata = liniaCurenta.replace(".", ".\n");
+            ListaNoua.set(i, liniaModificata);
+        }
+        System.out.println("--------------------Separare dupa punct :  \n");
+        for (String linie : ListaNoua) {
+            System.out.println(linie);
+        }
+
+    }
+
     public static List<String> citireFisier(Path path) {
         List<String> lines = new ArrayList<>();
-
         try {
-
             lines = Files.readAllLines(path);
         } catch (IOException e) {
             System.out.println("Eroare la citire: " + e.getMessage());
         }
-
-
         return lines;
     }
 }
