@@ -18,12 +18,34 @@ public class AppLab4 {
         varste.put("Vlad", 19);
         varste.put("Iulia", 19);
         afisare(varste);
+        HashMap<String, Tanar> tineri = new HashMap<>();
+        populareTineri(varste, adrese, tineri);
+        afisareTineri(tineri);
     }
 
 
     public static void afisare(HashMap<String, Integer> varste){
+        System.out.println("\n--- Afisare  ---");
         for(String s: varste.keySet()){
             System.out.println(s);
         }
+    }
+
+    public static void afisareTineri(HashMap<String, Tanar> tineri) {
+        System.out.println("\n--- Afisare Tineri ---");
+        for(String nume : tineri.keySet()) {
+            Tanar tanarCurent = tineri.get(nume);
+            System.out.println(nume + " -> " + tanarCurent);
+        }
+    }
+
+    public static void populareTineri(HashMap<String, Integer> varste , Map<String, String> adrese, HashMap<String, Tanar> tineri){
+        for(String nume: varste.keySet()){
+            int varsta = varste.get(nume);
+            String adresa = adrese.getOrDefault(nume, "Necunoscuta");
+            Tanar tanarNou = new Tanar(nume, varsta, adresa);
+            tineri.put(nume, tanarNou);
+        }
+
     }
 }
