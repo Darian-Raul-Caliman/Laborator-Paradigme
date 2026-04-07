@@ -38,7 +38,6 @@ public class AppLab4 {
             System.out.println(nume + " -> " + tanarCurent);
         }
     }
-
     public static void populareTineri(HashMap<String, Integer> varste , Map<String, String> adrese, HashMap<String, Tanar> tineri){
         for(String nume: varste.keySet()){
             int varsta = varste.get(nume);
@@ -46,6 +45,5 @@ public class AppLab4 {
             Tanar tanarNou = new Tanar(nume, varsta, adresa);
             tineri.put(nume, tanarNou);
         }
-
     }
 }

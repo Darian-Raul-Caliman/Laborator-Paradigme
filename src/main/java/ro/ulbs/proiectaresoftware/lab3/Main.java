@@ -53,9 +53,11 @@ public class Main {
             lines = Files.readAllLines(path);
         } catch (IOException e) {
             System.out.println("Eroare la citire: " + e.getMessage());
+
         }
         return lines;
     }
+
 
     public static void scriereFisier(List<String> iesire, Path path) throws IOException {
         try (BufferedWriter writer = Files.newBufferedWriter(path)) {
