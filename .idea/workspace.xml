@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c8b7adff-db8a-40ba-9648-99e085c5e97f" name="Changes" comment="Laborator 5 AdvancedCalculator.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ro/ulbs/proiectaresoftware/lab5/advanced/ACalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ro/ulbs/proiectaresoftware/lab5/advanced/DoubleCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ro/ulbs/proiectaresoftware/lab5/advanced/Lab5Adv.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ro/ulbs/proiectaresoftware/lab5/advanced/NewIntCalculator.java" afterDir="false" />
+    <list default="true" id="c8b7adff-db8a-40ba-9648-99e085c5e97f" name="Changes" comment="Laborator 5Adv.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ro/ulbs/proiectaresoftware/lab6/Group.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ro/ulbs/proiectaresoftware/lab6/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ro/ulbs/proiectaresoftware/lab6/DoubleCalculatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ro/ulbs/proiectaresoftware/lab6/GroupTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ro/ulbs/proiectaresoftware/lab6/NewIntCalculatorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,11 +56,14 @@
   "keyToString": {
     "Application.Unnamed.executor": "Run",
     "Gradle.Build LaboratoareSoftware.executor": "Run",
+    "Gradle.DoubleCalculatorTest.addTest.executor": "Run",
+    "Gradle.GroupTest.executor": "Run",
     "Gradle.LaboratoareSoftware [:ro.ulbs.proiectaresoftware.lab1.Main.main()].executor": "Run",
     "Gradle.LaboratoareSoftware [:ro.ulbs.proiectaresoftware.lab2.Main.main()].executor": "Run",
     "Gradle.LaboratoareSoftware [:ro.ulbs.proiectaresoftware.lab3.Main.main()].executor": "Run",
     "Gradle.LaboratoareSoftware [:ro.ulbs.proiectaresoftware.lab4.AppLab4.main()].executor": "Run",
     "Gradle.LaboratoareSoftware [:ro.ulbs.proiectaresoftware.lab5.AppLab5.main()].executor": "Run",
+    "Gradle.LaboratoareSoftware [:ro.ulbs.proiectaresoftware.lab5.advanced.Lab5Adv.main()].executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -76,7 +80,7 @@
       <recent name="ro.ulbs.proiectaresoftware.lab3" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Gradle.DoubleCalculatorTest">
     <configuration name="Lab5Adv" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="corretto-25" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -86,6 +90,85 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DoubleCalculatorTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;ro.ulbs.proiectaresoftware.lab6.DoubleCalculatorTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="DoubleCalculatorTest.addTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;ro.ulbs.proiectaresoftware.lab6.DoubleCalculatorTest.addTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="GroupTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;ro.ulbs.proiectaresoftware.lab6.GroupTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.DoubleCalculatorTest" />
+        <item itemvalue="Gradle.DoubleCalculatorTest.addTest" />
+        <item itemvalue="Gradle.GroupTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -190,7 +273,15 @@
       <option name="project" value="LOCAL" />
       <updated>1775592385292</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Laborator 5Adv.">
+      <option name="closed" value="true" />
+      <created>1775592643945</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1775592643945</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -202,6 +293,7 @@
     <MESSAGE value="Laborator 4" />
     <MESSAGE value="Laborator 4 c)" />
     <MESSAGE value="Laborator 5 AdvancedCalculator." />
-    <option name="LAST_COMMIT_MESSAGE" value="Laborator 5 AdvancedCalculator." />
+    <MESSAGE value="Laborator 5Adv." />
+    <option name="LAST_COMMIT_MESSAGE" value="Laborator 5Adv." />
   </component>
 </project>
