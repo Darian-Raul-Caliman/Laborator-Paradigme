@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c8b7adff-db8a-40ba-9648-99e085c5e97f" name="Changes" comment="Laborator 5Adv.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ro/ulbs/proiectaresoftware/lab6/Group.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ro/ulbs/proiectaresoftware/lab6/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ro/ulbs/proiectaresoftware/lab6/DoubleCalculatorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ro/ulbs/proiectaresoftware/lab6/GroupTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ro/ulbs/proiectaresoftware/lab6/NewIntCalculatorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ro/ulbs/proiectaresoftware/lab6/NewIntCalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ro/ulbs/proiectaresoftware/lab6/NewIntCalculatorTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +53,7 @@
     "Application.Unnamed.executor": "Run",
     "Gradle.Build LaboratoareSoftware.executor": "Run",
     "Gradle.DoubleCalculatorTest.addTest.executor": "Run",
+    "Gradle.DoubleCalculatorTest.executor": "Run",
     "Gradle.GroupTest.executor": "Run",
     "Gradle.LaboratoareSoftware [:ro.ulbs.proiectaresoftware.lab1.Main.main()].executor": "Run",
     "Gradle.LaboratoareSoftware [:ro.ulbs.proiectaresoftware.lab2.Main.main()].executor": "Run",
